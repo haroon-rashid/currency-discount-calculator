@@ -1,14 +1,10 @@
 # currency-discount-calculator
+# Reports and UML Diagram is in the "Reports & UML Diagram" Folder
 
 # Prerequisites
 Java 17,
 Maven 3.6+
 SonarQube server (optional for code quality reporting)
-
-
-# Reports and UML Diagram is in the "Reports & UML Diagram" Folder
-
-# =======> Scripts <=======
 
 # Maven Build Scripts
 ./build-project.sh
@@ -23,7 +19,7 @@ SonarQube server (optional for code quality reporting)
 # =======> Using Exchange API <=======
 Before Build Project first add your currency exchange API "application.properites" like 
 
-# Base URL for the currency exchange API
+Base URL for the currency exchange API
 currency.api.base-url=https://v6.exchangerate-api.com/v6/your-exchange-API-key/latest/
 
 After Build and run the project imports belows Curl in Postman
@@ -71,11 +67,16 @@ curl --location 'http://localhost:8080/api/calculate' \
 # I have done all bonus activities in this project:
 
 Create build scripts using Maven or Gradle to:
-o Build the project from the command line.
-o Run static code analysis such as linting.
-o Run unit tests and generate code coverage reports.
- Generate a SonarQube report for the code quality summary.
- Implement caching for exchange rates to reduce API calls.
+
+Build the project from the command line.
+
+Run static code analysis such as linting.
+
+Run unit tests and generate code coverage reports.
+
+Generate a SonarQube report for the code quality summary.
+
+Implement caching for exchange rates to reduce API calls.
 
 
 
