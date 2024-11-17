@@ -1,6 +1,6 @@
-#currency-discount-calculator
+# currency-discount-calculator
 
-#Prerequisites
+# Prerequisites
 Java 17,
 Maven 3.6+
 SonarQube server (optional for code quality reporting)
@@ -8,19 +8,19 @@ SonarQube server (optional for code quality reporting)
 
 # Reports and UML Diagram is in the "Reports & UML Diagram" Folder
 
-#=======> Scripts <=======
+# =======> Scripts <=======
 
-#Maven Build Scripts
+# Maven Build Scripts
 ./build-project.sh
 
-#Run static code analysis:
+# Run static code analysis:
 ./run-linting.sh
 
-#Run tests and generate coverage reports:
+# Run tests and generate coverage reports:
 ./run-tests-and-coverage.sh
 
 
-#=======> Using Exchange API <=======
+# =======> Using Exchange API <=======
 Before Build Project first add your currency exchange API "application.properites" like 
 
 # Base URL for the currency exchange API
@@ -28,7 +28,7 @@ currency.api.base-url=https://v6.exchangerate-api.com/v6/your-exchange-API-key/l
 
 After Build and run the project imports belows Curl in Postman
 
-#Login API
+# Login API
 
 curl --location 'http://localhost:8080/api/auth/login' \
 --header 'Content-Type: application/json' \
@@ -41,7 +41,7 @@ curl --location 'http://localhost:8080/api/auth/login' \
 
 Calling above API in response you will get JWT Token and copy that token;
 
-#Calculate API
+# Calculate API
  
 Using the API past you token on "your-jwt-token" and call the API.
 
@@ -68,7 +68,8 @@ curl --location 'http://localhost:8080/api/calculate' \
 
 
 
-#I have done all bonus activities in this project:
+# I have done all bonus activities in this project:
+
 Create build scripts using Maven or Gradle to:
 o Build the project from the command line.
 o Run static code analysis such as linting.
