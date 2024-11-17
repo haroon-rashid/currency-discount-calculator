@@ -59,7 +59,7 @@ curl --location 'http://localhost:8080/api/calculate' \
 '
 
 
- In above API "userType" wile be  in EMPLOYEE, AFFILIATE and CUSTOMER.
+ In above API "userType" will be  in EMPLOYEE, AFFILIATE and CUSTOMER.
 
 
 
