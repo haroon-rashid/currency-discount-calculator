@@ -79,7 +79,9 @@ curl --location 'http://localhost:8080/api/auth/login' \
 --data '{
     "username": "user",
     "password": "password"
-}'```
+}'
+
+```
 
 ## Response
 
@@ -87,6 +89,7 @@ curl --location 'http://localhost:8080/api/auth/login' \
 {
     "token": "your-jwt-token"
 }
+
 ```
 
 The response will include a JWT token. Copy this token to use in subsequent API calls.
@@ -113,7 +116,9 @@ curl --location 'http://localhost:8080/api/calculate' \
     "customerTenureYears": 3,
     "originalCurrency": "AED",
     "targetCurrency": "PKR"
-}' ```
+}' 
+
+```
 
 
 
@@ -142,7 +147,9 @@ curl --location 'http://localhost:8080/api/calculate' \
     "discountsOnEveryHundredUSD": 2777.405064,
     "totalPayableAmount": 54226.31,
     "totalDiscount": 4981.64
-} ```
+} 
+
+```
 
 
 ## Bonus Activities Implemented
