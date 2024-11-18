@@ -60,7 +60,7 @@ To use the currency exchange API, update the `application.properties` file in yo
 
 ```properties
 # Base URL for the currency exchange API
-currency.api.base-url=https://v6.exchangerate-api.com/v6/your-exchange-API-key/latest/```
+currency.api.base-url=https://v6.exchangerate-api.com/v6/your-exchange-API-key/latest/ ```
 
 
 ## API Usage
