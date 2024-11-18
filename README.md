@@ -58,7 +58,7 @@ The **Currency Discount Calculator** is a Spring Boot application designed to in
 
 To use the currency exchange API, update the `application.properties` file in your Spring Boot project. Add the following property with your API key:
 
-```properties
+```bash
 # Base URL for the currency exchange API
 currency.api.base-url=https://v6.exchangerate-api.com/v6/your-exchange-API-key/latest/ ```
 
