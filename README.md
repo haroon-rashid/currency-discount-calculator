@@ -162,7 +162,6 @@ curl --location 'http://localhost:8080/api/calculate' \
 ---
 
 
-
 ## Technologies Used
 
 - **Spring Boot**: Framework for building REST APIs.
